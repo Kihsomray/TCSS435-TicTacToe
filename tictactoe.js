@@ -199,7 +199,7 @@ window.onload = function () {
                 score++;
                 console.log(cond === states[indexer - 1]);
             } else {
-                console.log("Failed: " + cond + " " + states[indexer - 1]);
+                //console.log("Failed: " + cond + " " + states[indexer - 1]);
             
             }
         }
