@@ -198,6 +198,9 @@ window.onload = function () {
             if (cond === states[indexer++]) {
                 score++;
                 console.log(cond === states[indexer - 1]);
+            } else {
+                console.log("Failed: " + cond + " " + states[indexer - 1]);
+            
             }
         }
         if (indexer < games.length) {
